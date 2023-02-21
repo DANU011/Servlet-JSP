@@ -11,7 +11,9 @@
 String id= request.getParameter("user_id");
 String pwd= request.getParameter("user_pwd");
 if(id.equalsIgnoreCase("must") && pwd.equalsIgnoreCase("1234")){
-	response.getRequestDispatcher("ResPonseMain.jsp?loginErr=1").forword(request, response);
+	response.sendRedirect("ResPonseWelcome.jsp");
+}else {
+	request.getRequestDispatcher("ResPonseMain.jsp?loginErr=1").forward(request, response);
 }
 %>
 </body>
