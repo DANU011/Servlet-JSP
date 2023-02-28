@@ -11,7 +11,7 @@ public class JDBCClientMYSQL {
 		
 		//MYSQL 접속을 위한 JDBC 드라이버 로드
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		/*Class라는 이름의 클래스의 forName 메서드를 호출 static 메서드 > 바로 호출해서 사용가능*/
+		/*Class라는 이름의 클래스의 forName 메서드를 호출 static 메서드 > .으로 바로 호출해서 사용가능*/
 		
 		//MYSQL Database 연결 객체 생성
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world","musthave","tiger");

@@ -1,16 +1,16 @@
 package utils;
 
-import javax.servelt.jsp.JspWriter;
+import javax.servlet.jsp.JspWriter;
 
 public class JSFunction {
 
-private static void alterLocation(String msg, String url, javax.servlet.jsp.JspWriter out) {
+public static void alertLocation(String msg, String url,JspWriter out) {
 	try {
 		String script = ""
 				+"<script>"
 				+"	alert('"+msg+"');"
 				+"	location.href='"+url+"';"
-				+"<script>";
+				+"</script>";
 		out.println(script);
 	}
 	catch (Exception e) {}
@@ -21,7 +21,7 @@ public static void alertBack(String msg, JspWriter out) {
 				+"<script>"
 				+"	alert('"+msg+"');"
 				+"	history.back();"
-				+"<script>";
+				+"</script>";
 		out.println(script);
 	}
 	catch (Exception e) {}
