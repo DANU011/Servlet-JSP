@@ -16,6 +16,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\WebContent\10EL"/>
 			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\src\utils"/>
 			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\WebContent\08Board"/>
 			<item value="C:\Users\SW\Desktop\새 폴더 (2)"/>
