@@ -7,8 +7,14 @@ public class MyfileDTO {
 	private String cate;
 	private String ofile;
 	private String sfile;
+	private String postdate;
 	
-	
+	public String getPostdate() {
+		return postdate;
+	}
+	public void setPostdate(String postdate) {
+		this.postdate = postdate;
+	}
 	public String getIdx() {
 		return idx;
 	}
@@ -49,7 +55,7 @@ public class MyfileDTO {
 	@Override
 	public String toString() {
 		return "MyfileDTO [idx=" + idx + ", name=" + name + ", title=" + title + ", cate=" + cate + ", ofile=" + ofile
-				+ ", sfile=" + sfile + "]";
+				+ ", sfile=" + sfile + ", postdate=" + postdate + "]";
 	}
 	
 	
