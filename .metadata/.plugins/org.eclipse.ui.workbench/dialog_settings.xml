@@ -19,6 +19,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
 			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\WebContent\14MVCBoard"/>
+			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\src\model2\mvcboard"/>
 			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\src\servlet"/>
 			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\WebContent\12FileUpload"/>
 			<item value="C:\Users\SW\Desktop\musthave_jsp-main\musthave_jsp-main\src\fileupload"/>

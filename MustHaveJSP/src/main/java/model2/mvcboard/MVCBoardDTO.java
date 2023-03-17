@@ -1,5 +1,7 @@
 package model2.mvcboard;
 
+import java.util.Date;
+
 import org.apache.naming.java.javaURLContextFactory;
 
 public class MVCBoardDTO {
@@ -7,7 +9,7 @@ public class MVCBoardDTO {
 	 private String name;
 	 private String title;
 	 private String content;
-	 private java.sql.Date posDate;
+	 private Date postDate;
 	 private String ofile;
 	 private String sfile;
 	 private int downcount;
@@ -37,11 +39,11 @@ public class MVCBoardDTO {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	public java.sql.Date getPosDate() {
-		return posDate;
+	public Date getPostDate() {
+		return postDate;
 	}
-	public void setPosDate(java.sql.Date posDate) {
-		this.posDate = posDate;
+	public void setPostDate(java.sql.Date postDate) {
+		this.postDate = postDate;
 	}
 	public String getOfile() {
 		return ofile;
@@ -76,7 +78,7 @@ public class MVCBoardDTO {
 	@Override
 	public String toString() {
 		return "MVCBoeardDTO [idx=" + idx + ", name=" + name + ", title=" + title + ", content=" + content
-				+ ", posDate=" + posDate + ", ofile=" + ofile + ", sfile=" + sfile + ", downcount=" + downcount
+				+ ", postDate=" + postDate + ", ofile=" + ofile + ", sfile=" + sfile + ", downcount=" + downcount
 				+ ", pass=" + pass + ", visitcount=" + visitcount + "]";
 	}
 	 
