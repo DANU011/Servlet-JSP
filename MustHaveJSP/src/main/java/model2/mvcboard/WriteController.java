@@ -17,7 +17,7 @@ import com.oreilly.servlet.MultipartRequest;
 import fileupload.FileUtil;
 import utils.JSFunction;
 
-@WebServlet
+@WebServlet("/mvcboard/write.do")
 public class WriteController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)

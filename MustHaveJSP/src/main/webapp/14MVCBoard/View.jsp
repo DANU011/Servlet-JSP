@@ -22,7 +22,7 @@
         <td>작성자</td> <td>${ dto.name }</td>
     </tr>
     <tr>
-        <td>작성일</td> <td>${ dto.postdate }</td>
+        <td>작성일</td> <td>${ dto.postDate }</td>
         <td>조회수</td> <td>${ dto.visitcount }</td>
     </tr>
     <tr>

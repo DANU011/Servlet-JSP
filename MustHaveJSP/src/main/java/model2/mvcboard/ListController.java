@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import utils.BoardPage;
 
-@WebServlet
+@WebServlet("/mvcboard/list.do")
 public class ListController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
